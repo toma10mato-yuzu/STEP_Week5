@@ -165,7 +165,7 @@ def simulated_annealing(cities, dist, initial_path, n_iter=100000, cooling_rate=
 
     return best_path
   ```
-### 結果:
+### 結果
 ```
 Challenge 0
 output_sa_greedy_2opt:    3291.62
@@ -202,3 +202,10 @@ output_sa_greedy_2opt:   42712.37
 output_sa_insertion_2opt:   44913.28
 google-step-tsp/sample/sa:   44393.89
 ```
+### 参考
+https://qiita.com/flowerrr__lily/items/6679f9496d0079fa0dd2
+https://qiita.com/take314/items/7eae18045e989d7eaf52
+https://zenn.dev/hamao/articles/60e27fbcb4e215
+https://gasin.hatenadiary.jp/entry/2019/09/03/162613
+https://future-architect.github.io/articles/20211201a/#%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0
+https://salad-bowl-of-knowledge.github.io/hp/processing/2017/12/03/simulated_annealing.html
